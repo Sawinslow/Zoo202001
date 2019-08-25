@@ -32,8 +32,8 @@ public class AnimalNoise {
 		Chicken bob = new Chicken();
 		System.out.println(bob.speak());
 		
-		Sheep Baaaarba = new Sheep();
-		System.out.println(Baaaarba.speak());
+		Sheep Baaarba = new Sheep();
+		System.out.println(Baaarba.speak());
 	}
 
 }

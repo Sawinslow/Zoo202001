@@ -3,18 +3,18 @@ package model;
 public class Sheep {
 	private String age;
 	private String cottoncolor;
-	private String breed;
+	private String breeds;
 
 	public Sheep() {
 		super();
 
 	}
 
-	public Sheep(String age, String cottoncolor, String breed) {
+	public Sheep(String age, String cottoncolor, String breeds) {
 		super();
 		this.age = age;
 		this.cottoncolor = cottoncolor;
-		this.breed = breed;
+		this.breeds = breeds;
 	}
 
 	public String getage() {
@@ -33,12 +33,12 @@ public class Sheep {
 		this.cottoncolor = cottoncolor;
 	}
 
-	public String getBreed() {
-		return breed;
+	public String getbreeds() {
+		return breeds;
 	}
 
-	public void setBreed(String breed) {
-		this.breed = breed;
+	public void setbreeds(String breeds) {
+		this.breeds = breeds;
 	}
 	
 	public String speak() {
